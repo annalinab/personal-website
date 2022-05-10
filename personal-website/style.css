@@ -1,0 +1,383 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: darkcyan;  
+  display:flex;
+  color:white;
+  justify-content: space-around;  
+  align-items: center;
+  font-size: 18px;     
+  
+}
+
+
+.nav-list .list-item{
+  padding: 10px;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;   
+  display:inline-block;  
+  
+}
+
+.nav-list {  
+  list-style-type: none;  
+  text-align:center;
+  padding-top: 10px;
+  
+}
+
+.navbar a{
+  color:white;
+  text-decoration: none;
+}
+
+
+.navbar a:hover{
+  color:black;
+}
+
+
+.menu-line{
+  width:20px;
+  height:3px;
+  background-color:white;
+  margin-bottom: 4px;
+}
+
+.menu{
+  display:none;
+}
+
+
+
+.name{
+  width:30%;     
+  margin-top:10px;    
+  margin-bottom:10px;
+}
+
+
+
+.aboutMe{
+  margin-top:40px;
+  margin-bottom:40px;  
+  width:fit-content; 
+  padding: 20px;  
+  margin-left: auto;
+  margin-right: auto;
+  width:750px;
+  background-color: lightcyan;
+  border: 4px dotted darkcyan;
+}
+
+
+
+.pic{
+  display:block;      
+  height:13em;  
+  margin-left:auto;
+  margin-right:auto;  
+  margin-top:10px;   
+
+  
+}
+
+.welcomeText{  
+  padding: 10px 10px;      
+  text-align: center;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+ 
+}
+
+
+
+.myName{
+  padding-top: 2em;
+  display:block;
+  padding-bottom: 2em;
+  margin-left:auto;
+  margin-right:auto; 
+  width:20em;
+}
+
+
+h1{
+  color:white;
+  background-color: darkcyan;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.appDiv{
+  border-bottom: 5px dotted darkcyan;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.JMWDiv{  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.appPics{
+  margin-left:auto;
+  margin-right:auto;    
+  display: block;
+  text-align: center;
+  padding-bottom:20px;
+}
+
+.screen{  
+  vertical-align: top;
+  height:20em;
+  padding: 15px 5px;
+   
+}
+
+
+.title{
+  color:black;
+  font-size:25px;
+  text-align:center;
+  padding-top: 30px;
+  font-style: bold;
+  font-weight:bolder;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  
+}
+
+.appCourse{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 5px;  
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.description{
+  color:black;
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;   
+  text-size-adjust: auto;   
+  width:750px; 
+  margin-left:auto;
+  margin-right:auto;  
+  padding: 15px 15px; 
+}
+
+.email{
+  color:black;
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  font-style:bold;  
+  text-size-adjust: auto;    
+  margin-left:auto;
+  margin-right:auto;  
+  padding: 30px 15px; 
+}
+
+.comment{
+  color:black;
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  width:750px;
+  text-align: center;  
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.eval{
+  color:black;
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;  
+  padding-bottom:20px;
+}
+
+.box{  
+  background-color: lightcyan;  
+  border-left: 20px solid darkcyan;
+  width:fit-content; 
+  padding: 20px;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:40px;
+  position:relative;
+}
+
+
+
+
+.buttonAlign{     
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+ 
+
+}
+
+
+.appButtons {
+ 
+  font-weight: bold;
+  font-size: 20px;   
+  width:fit-content;  
+  background: darkcyan;
+  color:white;
+  border: none;
+  text-align:center;  
+  padding: 10px 10px;
+  margin-left:20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  
+ 
+}
+
+.appButtons:hover{
+  color:black;
+  cursor:pointer;
+}
+
+.used{
+  color:black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+ 
+}
+
+
+.icons{
+ 
+  color:white;
+  width:fit-content;
+  height: fit-content;
+  margin-left: 5px;  
+  margin-bottom:15px;
+}
+
+.icons:hover{
+  border-color: black;
+  border-width: 3px;
+  cursor:pointer;
+}
+
+
+.homePage{
+  height:600px;
+  margin-left:auto;
+  margin-right:auto;    
+  display: block;
+  text-align: center;
+  padding: 30px 20px;
+ 
+}
+
+@media all and (max-width:480px){
+  .navbar{
+    flex-direction: column;
+    position:relative;
+  }
+  
+  .menu{
+    display:block;
+    position:absolute;
+    right: 15px;
+    top:15px;
+  }
+
+  .pic{
+    height:8em;
+  }
+
+  .myName{
+    width:15em;    
+
+  }
+
+  .nav-list{
+    list-style-type: none;
+    width:100%;
+    text-align:center;
+    padding-top:10px;
+    display:none;
+  }
+
+  .eval{
+    font-size: 15px;
+
+  }
+
+  .appButtons{
+    font-size:15px;
+    
+  }
+
+  .appCourse{
+    font-size:15px;
+    padding: 20px 20x;
+  }
+
+  .title{
+    font-size: 20px;
+
+  }
+
+  .comment{
+    font-size:15px;
+
+  }
+
+  .nav-list .list-item{
+    display:block;
+    border-top: 1px solid white;
+
+  }
+
+  
+.name{
+  margin-left:10px;    
+  width:40%;  
+  
+}
+
+  .aboutMe{
+    width:100%;    
+
+  }
+
+  .description{
+    width:100%;
+    font-size:15px;
+
+  }
+
+  .welcomeText{
+    font-size:15px;    
+  }
+
+  .comment{
+    width:100%;
+  }
+  .active{
+    display:block;
+  }
+  
+}

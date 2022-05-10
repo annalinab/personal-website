@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annalina Becker</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+<body>
+    <div id="main">
+        <nav class="navbar">
+            <div>
+                <a href="#">
+                    <img class="name" src="name.png"/>
+                </a>              
+            </div>            
+            <ul class="nav-list" id="navi-list">                
+                    <li class="list-item">
+                        <a href="#home">Home</a>
+                    </li> 
+                    <li class="list-item">
+                        <a href="#internship">Internship</a>
+                    </li>                  
+                    <li class="list-item">
+                        <a href="#projects">Projects</a>
+                        
+                    </li>
+                    <li class="list-item">
+                        <a href="#contact">Contact</a>
+                    </li>          
+               
+            </ul>     
+            <div class="menu" id="toggle">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+        
+        <script>
+                const toggle = document.getElementById("toggle");
+                const navList = document.getElementById("navi-list");
+
+                toggle.addEventListener('click',()=>{
+                    navList.classList.toggle('active');
+                })
+        </script>
+        
+        <div id="home">
+            <script src="home.js"></script>
+
+        </div> 
+      
+        <h1 id="internship">Internship</h1>   
+        <script src="internship.js"></script>
+
+        <h1 id="projects">Projects</h1>
+        <script src="projects.js"></script>
+       
+
+        <h1 id="contact">Contact</h1>   
+        <script src="contact.js"></script>    
+       
+      
+        
+     
+        
+
+</body>
+</html>
