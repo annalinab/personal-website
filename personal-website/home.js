@@ -11,17 +11,22 @@ aboutMe.classList.add("aboutMe");
 
 let headshot = document.createElement("img");
 headshot.classList.add("pic")
-headshot.src = "headshot.png";
+headshot.src = "images/headshot.png";
 aboutMe.appendChild(headshot);
 
-let nameBig = document.createElement("img");
+let name = document.createElement("div");
+name.classList.add("introName")
+name.innerHTML = 'Hi, my name is Annalina.';
+aboutMe.appendChild(name);
+
+/*let nameBig = document.createElement("img");
 nameBig.classList.add("myName")
-nameBig.src = "nameblack.png";
-aboutMe.appendChild(nameBig);
+nameBig.src = "images/nameblack.png";
+aboutMe.appendChild(nameBig);*/
 
 let welcomeText = document.createElement("div");
 welcomeText.classList.add("welcomeText")
-welcomeText.innerHTML = 'Hi! I am currently working towards a Bachelor of Science in Computer Science at the University of Florida in Gainesville, Florida. I will be graduating in December 2022. Throughout my college education, I have completed an internship as well as several projects that highlight my skillset and knowledge gained. From these experiences, I have realized that my interests revolve about front end development and include web development and user interface design.';
+welcomeText.innerHTML = 'I am currently working towards a Bachelor of Science in Computer Science at the University of Florida in Gainesville, Florida. I will be graduating in December 2022. Throughout my college education, I have completed an internship as well as several projects that highlight my skillset and knowledge gained. From these experiences, I have realized that my interests revolve around front end development and user interface design.';
 
 
 

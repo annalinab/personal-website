@@ -13,11 +13,11 @@ let email = document.createElement("div");
 
 let linkedinIcon = document.createElement("button");  
 linkedinIcon.classList.add("icons")
-linkedinIcon.innerHTML = '<img src="linkedin-icon.png" style="vertical-align:middle; height:60px"/>';
+linkedinIcon.innerHTML = '<img src="images/linkedin-icon.png" style="vertical-align:middle; height:60px"/>';
 
 let githubIcon = document.createElement("button");  
 githubIcon.classList.add("icons")
-githubIcon.innerHTML = '<img src="github-icon.png" style="vertical-align:middle; height:60px"/>';
+githubIcon.innerHTML = '<img src="images/github-icon.png" style="vertical-align:middle; height:60px"/>';
 
 let iconGroup = document.createElement("div");
 iconGroup.classList.add("buttonAlign")

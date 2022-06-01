@@ -14,21 +14,21 @@
         <nav class="navbar">
             <div>
                 <a href="#">
-                    <img class="name" src="name.png"/>
+                    <img class="name" src="images/name.png"/>
                 </a>              
             </div>            
             <ul class="nav-list" id="navi-list">                
-                    <li class="list-item">
-                        <a href="#home">Home</a>
+                    <li class="list-item" id="button1">
+                        <a href="#">Home</a>
                     </li> 
-                    <li class="list-item">
+                    <li class="list-item" id="button2">
                         <a href="#internship">Internship</a>
                     </li>                  
-                    <li class="list-item">
+                    <li class="list-item" id="button3">
                         <a href="#projects">Projects</a>
                         
                     </li>
-                    <li class="list-item">
+                    <li class="list-item" id="button4">
                         <a href="#contact">Contact</a>
                     </li>          
                
@@ -47,27 +47,43 @@
                 toggle.addEventListener('click',()=>{
                     navList.classList.toggle('active');
                 })
+
+                const clickHome = document.getElementById("button1");
+                const clickInternship = document.getElementById("button2");
+                const clickProjects = document.getElementById("button3");
+                const clickContact = document.getElementById("button4");
+
+                clickHome.addEventListener('click',()=>{
+                    navList.classList.toggle('active');
+                })
+
+                clickInternship.addEventListener('click',()=>{
+                    navList.classList.toggle('active');
+                })
+
+                clickProjects.addEventListener('click',()=>{
+                    navList.classList.toggle('active');
+                })
+
+                clickContact.addEventListener('click',()=>{
+                    navList.classList.toggle('active');
+                })
         </script>
+        
         
         <div id="home">
             <script src="home.js"></script>
-
-        </div> 
-      
-        <h1 id="internship">Internship</h1>   
-        <script src="internship.js"></script>
+        </div>       
+        
+        <h1 id="internship">Internship</h1> 
+        <script src="internship.js"></script>  
 
         <h1 id="projects">Projects</h1>
         <script src="projects.js"></script>
        
-
-        <h1 id="contact">Contact</h1>   
-        <script src="contact.js"></script>    
-       
-      
+        <h1 id="contact">Contact</h1>  
+        <script src="contact.js"></script>  
         
-     
-        
-
+    
 </body>
 </html>

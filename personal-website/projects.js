@@ -28,22 +28,22 @@ function renderProjects(){
 
     let loginScreen = document.createElement("img");  
     loginScreen.classList.add("screen")
-    loginScreen.src = "login.png";
+    loginScreen.src = "images/login.png";
     appPics.appendChild(loginScreen);
 
     let exerciseOne = document.createElement("img");  
     exerciseOne.classList.add("screen")
-    exerciseOne.src = "ex1.png";
+    exerciseOne.src = "images/ex1.png";
     appPics.appendChild(exerciseOne);
 
     let painFeed = document.createElement("img");  
     painFeed.classList.add("screen")
-    painFeed.src = "painfeedback.png";
+    painFeed.src = "images/painfeedback.png";
     appPics.appendChild(painFeed);
 
     let reward = document.createElement("img");  
     reward.classList.add("screen")
-    reward.src = "reward.png";
+    reward.src = "images/reward.png";
     appPics.appendChild(reward);
 
     let appDescription = document.createElement("div");
@@ -61,12 +61,12 @@ function renderProjects(){
     let paperButton = document.createElement("button");
     paperButton.classList.add("appButtons")    
     paperButton.innerHTML='myHipRehab Report ';  
-    paperButton.innerHTML+= '<img src="pdf-download-2617.png" style="vertical-align:middle"/>';
+    paperButton.innerHTML+= '<img src="images/pdf-download-2617.png" style="vertical-align:middle"/>';
 
     let demoButton = document.createElement("button"); 
     demoButton.classList.add("appButtons")     
     demoButton.innerHTML='myHipRehab Demo ';  
-    demoButton.innerHTML+= '<img src="YouTubeIcon.png" style="height:40px; vertical-align:middle" />';
+    demoButton.innerHTML+= '<img src="images/YouTubeIcon.png" style="height:40px; vertical-align:middle" />';
    
     buttons.appendChild(paperButton);
     buttons.appendChild(demoButton);
@@ -108,7 +108,7 @@ function renderProjects(){
    
     let JMWHome = document.createElement("img");  
     JMWHome.classList.add("homePage")
-    JMWHome.src = "JMWHome.jpg";
+    JMWHome.src = "images/JMWHome.jpg";
     JMWDiv.appendChild(JMWHome);   
 
     let JMWButtons = document.createElement("div");
@@ -118,12 +118,12 @@ function renderProjects(){
     let docButton = document.createElement("button");
     docButton.classList.add("appButtons")    
     docButton.innerHTML='Design Document ';  
-    docButton.innerHTML+= '<img src="pdf-download-2617.png" style="vertical-align:middle"/>';
+    docButton.innerHTML+= '<img src="images/pdf-download-2617.png" style="vertical-align:middle"/>';
 
     let JMWDemo = document.createElement("button"); 
     JMWDemo.classList.add("appButtons")     
     JMWDemo.innerHTML='Interactive Prototype ';  
-    JMWDemo.innerHTML+= '<img src="figmaicon.png" style="height:40px; vertical-align:middle" />';
+    JMWDemo.innerHTML+= '<img src="images/figmaicon.png" style="height:40px; vertical-align:middle" />';
    
     JMWButtons.appendChild(docButton);
     JMWButtons.appendChild(JMWDemo);
